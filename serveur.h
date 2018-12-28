@@ -1,0 +1,28 @@
+////////////////////////////////////////////////////////////////
+////														////
+////			P P E  S - S I    2011-2012					////
+////				Projet S I G M A						////
+////		   Lycée Auguste LOUBATIERES Agde				////
+////														////
+////////////////////////////////////////////////////////////////
+////					serveur.h							////
+////////////////////////////////////////////////////////////////
+////														////
+////	Description : Fichier de déclarations de serveur.c	////
+////														////
+////	Créé le : 08/12/2011								////
+////	Modifié le : 08/12/2011								////
+////	Support : PIC 18F2525  -  16 MHz					////
+////	Par : 	Thibaud LEMAIRE								////
+////														////
+////////////////////////////////////////////////////////////////
+
+#ifndef serveur_h
+#define serveur_h
+
+//// Prototypes ////
+void serveur_init(void);
+void serveur_envoi_etat(void);
+void serveur_taches(void);
+
+#endif
